@@ -144,11 +144,19 @@ INSTALLED_APPS = (
     'cmsplugin_filer_folder',
     'cmsplugin_filer_image',
     'cmsplugin_filer_utils',
-    'djangocms_style',
+    # 'djangocms_style',
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
+
+    'aldryn_style',
+    'mptt',
+    'aldryn_bootstrap3',
+
+
     'mysite'
+
+
 )
 
 LANGUAGES = (
@@ -176,7 +184,8 @@ CMS_LANGUAGES = {
 
 CMS_TEMPLATES = (
     ## Customize this
-    ('fullwidth.html', 'Fullwidth'),
+    ('home.html', 'Home'),
+    ('fullwith.html', 'Fullwith'),
 
 )
 
